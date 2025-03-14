@@ -5,36 +5,27 @@ In Formula 1, numerous factors contribute to a driver's race performance, with k
 
 Objective
 The primary objective of this project is to analyze how:
-
-Qualifying Results
-Pit Stop Strategies
-Driver's Age and Experience
-Weather Conditions
+•	Qualifying Results
+•	Pit Stop Strategies
+•	Driver's Age and Experience
+•	Weather Conditions
 ...influence the final race results in Formula 1 by analyzing races held between 2010 and 2024.
 
 Data Collection Plan
-For a comprehensive and accurate analysis, I will use multiple reliable data sources:
+For an comprehensive and accurate analysis, I will use multiple reliable data sources:
+1.	Ergast API:
+o	Extract data on race results, qualifying performance, and pit stop details through API queries.
+o	Focus on races from 2010 to 2024 for consistency.
+2.	Kaggle Datasets:
+o	Collect weather data for each race weekend to analyze environmental conditions.
+o	Additional data for driver experience and age information.
+3.	Official FIA Data:
+o	Use official FIA reports to validate race incidents, weather conditions, and pit strategy insights.
 
-Ergast API
-
-Extract data on race results, qualifying performance, and pit stop details through API queries.
-Focus on races from 2010 to 2024 for consistency.
-Kaggle Datasets
-
-Collect weather data for each race weekend to analyze environmental conditions.
-Additional data for driver experience and age information.
-Official FIA Data
-
-Use official FIA reports to validate race incidents, weather conditions, and pit strategy insights.
 Data Analysis
-Data Cleaning and Preparation: Handling missing values, normalizing data formats, and merging datasets from multiple sources.
-Exploratory Data Analysis (EDA): Identifying patterns and visualizing trends in qualifying results, pit strategies, and race outcomes.
-Correlation Analysis: Investigating the strength of relationships between qualifying positions, pit stops, weather, and race outcomes.
-Regression Models: Building predictive models to evaluate the combined influence of these factors.
-Visualization
-To effectively present insights, the following visualizations will be used:
+•	Data Cleaning and Preparation: Handling missing values, normalizing data formats, and merging datasets from multiple sources.
+•	Exploratory Data Analysis (EDA): Identifying patterns and visualizing trends in qualifying results, pit strategies, and race outcomes.
+•	Correlation Analysis: Investigating the strength of relationships between qualifying positions, pit stops, weather, and race outcomes.
+•	Regression Models: Building predictive models to evaluate the combined influence of these factors.
+•	Visualization: To effectively present the relationship between the factors like qualifying, weather condititons, driver performances and race results. Scatter plots, line graphs, heatmaps, bar charts will be used.
 
-Scatter Plots: Examine the relationship between qualifying position and final race result.
-Line Graphs: Track performance trends of individual drivers or teams over the years.
-Heatmaps: Visualize the impact of weather conditions on race outcomes.
-Bar Charts: Analyze the frequency and effectiveness of different pit stop strategies.
