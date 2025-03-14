@@ -2,8 +2,13 @@
 ## Project Proposal: Analyzing Factors Influencing Formula 1 Race Results (2010-2024)  
 
 ### Motivation  
-In Formula 1, numerous factors contribute to a driver's race performance, with key elements like qualifying results, pit stop strategies, driver characteristics, and environmental conditions playing crucial roles.  
-This project aims to explore the relationship between these factors and race outcomes, offering insights into their impact on race performance.  
+Formula 1 is one of the most data-driven sports in the world, where strategy, driver skill, and external conditions combine to determine race outcomes.  
+While qualifying results provide a strong indication of potential race performance, numerous other factors such as pit stop strategies, driver experience, and weather conditions play crucial roles.  
+
+For instance, an aggressive pit strategy can allow a driver to gain track position, while sudden weather changes can disrupt race strategies entirely.  
+Additionally, experienced drivers may demonstrate better adaptability during chaotic race conditions, further influencing results.  
+
+This project aims to explore these factors and their combined impact on race outcomes by analyzing F1 data from 2010 to 2024.
 
 ### Objective  
 The primary objective of this project is to analyze how:  
@@ -17,16 +22,16 @@ The primary objective of this project is to analyze how:
 ### Data Collection Plan  
 For a comprehensive and accurate analysis, I will use multiple reliable data sources:  
 
-**Ergast API:**  
-- Extract data on race results, qualifying performance, and pit stop details through API queries.  
-- Focus on races from 2010 to 2024 for consistency.  
+1. **[Ergast API](https://ergast.com/mrd/)**  
+   - Extract data on race results, qualifying performance, and pit stop details through API queries.  
+   - Focus on races from **2010 to 2024** for consistency.  
 
-**Kaggle Datasets:**  
-- Collect weather data for each race weekend to analyze environmental conditions.  
-- Additional data for driver experience and age information.  
+2. **[Kaggle](https://www.kaggle.com/)**  
+   - Collect weather data for each race weekend to analyze environmental conditions.  
+   - Additional data for driver experience and age information.  
 
-**Official FIA Data:**  
-- Use official FIA reports to validate race incidents, weather conditions, and pit strategy insights.  
+3. **[Official FIA Website](https://www.fia.com/)**  
+   - Use official FIA reports to validate race incidents, weather conditions, and pit strategy insights.    
 
 ### Data Analysis  
 - **Data Cleaning and Preparation:** Handling missing values, normalizing data formats, and merging datasets from multiple sources.  
